@@ -1,0 +1,2 @@
+document.addEventListener("DOMContentLoaded",function(){var e=document.querySelector(".icon--phone"),t=document.querySelector(".top-bar__list");e.addEventListener("click",function(e){console.log(window.screen.width),window.screen.width>=1024&&(e.preventDefault(),t.classList.toggle("visible"))})}),document.addEventListener("DOMContentLoaded",function(){var e=document.querySelector(".icon--phone");e.addEventListener("click",function(t){window.screen.width<1024&&(t.preventDefault(),e.setAttribute("href","tel:+1 212-535-7710"))})});
+//# sourceMappingURL=index.13762338.js.map
